@@ -1,0 +1,36 @@
+{
+  "name": "react-starter",
+  "version": "0.1.0",
+  "description": "react start with es6 and webpack3.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/yunxiange/react-starter.git"
+  },
+  "author": {
+    "name": "yunxiange",
+    "email": "yunxiange@gmail.com"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --colors --port 3000",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^2.28.0",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^3.0.0",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
