@@ -1,13 +1,13 @@
-### react-starter
+## react-starter
 
-#### Intro
+### Intro
 
 This project with React, ES6 and Webpack3.0.
 
-#### Usage
+### Usage
 
-· Development `npm run start`
-· Build `npm run build`
+- Development `npm run start`
+- Build `npm run build`
 
-#### Result
-[todo app](./assets/demo.png)
+### Result
+![Todo app](./assets/demo.png)
